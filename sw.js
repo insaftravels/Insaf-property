@@ -1,6 +1,6 @@
 /* ইনসাফ প্রপার্টি ম্যানেজার — Service Worker
    ⚠️ প্রতিবার ডিপ্লয়ের সময় CACHE_NAME এর সংখ্যা বাড়াও (v1 → v2 → v3 …) */
-const CACHE_NAME = 'insaf-pm-v1';
+const CACHE_NAME = 'insaf-pm-v2';
 const ASSETS = ['./','./index.html','./manifest.json'];
 
 self.addEventListener('install', e=>{
